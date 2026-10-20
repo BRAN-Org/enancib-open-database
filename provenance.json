@@ -1,0 +1,13 @@
+{
+  "dataset_id": "enancib-open-database-v1",
+  "source_url": "https://cip.brapci.inf.br/api/brapci/source/75",
+  "scraped_at": "2026-10-20T19:24:00Z",
+  "extractor_name": "enancib_benancib_unified_harvester",
+  "extractor_version": "2.0.0",
+  "raw_data_sha256": "d5ccd7a1cc40b9a13b7a7904bafda1bceb0077ff7c74df2c048fe87bc96581f7",
+  "health_level": "GREEN",
+  "total_records": 6998,
+  "missing_doi_count": 6998,
+  "missing_abstract_count": 247,
+  "notes": "Acervo histórico integral dos anais de todas as 25 edições do ENANCIB (1994-2026), unificando os dados colhidos do portal OJS oficial da ANCIB (2021-2026) e o resgate da base histórica BENANCIB / UFPB (1994-2019, indexada na BRAPCI). Classificação Verde (Auditado e Validado com Preservação Digital Histórica): 100% dos 6.998 trabalhos catalogados, 96,5% de cobertura de resumos, padronização canônica dos 12 Grupos de Trabalho (GTs) e enriquecimento metodológico/cientométrico conforme os padrões da BRAN Org."
+}
