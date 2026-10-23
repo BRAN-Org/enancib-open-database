@@ -1,0 +1,41 @@
+{
+  "title": "ENANCIB Open Database: Base de Dados Bibliométrica Aberta e Acervo Histórico Completo do ENANCIB (1994–2026)",
+  "description": "<p>Base de dados bibliométrica aberta e acervo histórico completo dos 6.998 trabalhos científicos apresentados nos anais das 25 edições do Encontro Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ENANCIB, 1994–2026), principal conferência de Ciência da Informação no Brasil, unificando a base histórica BENANCIB / UFPB (1994–2019) e o portal OJS da ANCIB (2021–2026) e disponibilizado pela BRAN Org sob princípios FAIR e BOAI em formatos JSON, CSV, BibTeX, RIS e SQLite.</p>",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Associação Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ANCIB)",
+      "type": "organization"
+    },
+    {
+      "name": "BRAN Org",
+      "affiliation": "Brazilian Research Archive Network"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-nc-sa-4.0",
+  "keywords": [
+    "open-data",
+    "bibliometrics",
+    "scientometrics",
+    "enancib",
+    "ancib",
+    "information-science",
+    "ciencia-da-informacao",
+    "fair-data",
+    "brazil"
+  ],
+  "communities": [
+    {
+      "identifier": "bran-org"
+    }
+  ],
+  "publication_date": "2026-10-22",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/BRAN-Org/enancib-open-database",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
