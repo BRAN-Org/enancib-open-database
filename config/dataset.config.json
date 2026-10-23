@@ -5,14 +5,14 @@
     "logo": "https://avatars.githubusercontent.com/u/328064865?v=4",
     "institutionName": "Associação Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ANCIB)",
     "githubUrl": "https://github.com/BRAN-Org/enancib-open-database",
-    "doiUrl": "",
+    "doiUrl": "https://doi.org/10.5281/zenodo.23593583",
     "issuesUrl": "https://github.com/BRAN-Org/enancib-open-database/issues"
   },
   "dataset": {
     "title": "ENANCIB Open Database",
     "description": "Base de dados bibliométrica aberta e acervo histórico completo dos 6.998 trabalhos científicos apresentados nos anais das 25 edições do Encontro Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ENANCIB, 1994–2026), principal conferência de Ciência da Informação no Brasil, disponibilizado pela BRAN Org sob princípios FAIR e BOAI.",
     "version": "2.0.0",
-    "doi": "",
+    "doi": "10.5281/zenodo.23593583",
     "license": "Code: GNU GPLv3 | Data: CC BY-NC-SA 4.0 (Não-Comercial & Sem Treino Comercial de IA)",
     "entityName": "articles",
     "singularName": "Artigo",

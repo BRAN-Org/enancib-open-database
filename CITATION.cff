@@ -3,6 +3,7 @@ message: "If you use this dataset or software, please cite it as below."
 title: "ENANCIB Open Database: Anais Abertos e Acervo Histórico Completo do Encontro Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (1994-2026)"
 version: 2.0.0
 date-released: 2026-10-20
+doi: "10.5281/zenodo.23593583"
 url: "https://github.com/BRAN-Org/enancib-open-database"
 repository-code: "https://github.com/BRAN-Org/enancib-open-database"
 license: GPL-3.0-or-later
