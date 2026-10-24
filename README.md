@@ -15,7 +15,7 @@ Base de dados bibliométrica aberta e acervo histórico completo dos 6.998 traba
 
 ## Visão Geral da Base de Dados
 
-- **Instituição / Evento**: Associação Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ANCIB)
+- **Acervo / Fonte Primária**: Encontro Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ENANCIB)
 - **Entidade Principal**: `articles`
 - **Total de Registros**: Configurado e indexado dinamicamente
 - **Licença dos Dados**: Code: GNU GPLv3 | Data: CC BY-NC-SA 4.0 (Não-Comercial & Sem Treino Comercial de IA)
@@ -107,7 +107,7 @@ Se você utilizar estes dados em pesquisas acadêmicas ou software, por favor ci
 
 ```bibtex
 @misc{enancib_open_database_2026,
-  author = {Associação Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ANCIB) and BRAN Org},
+  author = {BRAN Org},
   title = {ENANCIB Open Database: Base de Dados Bibliométrica Aberta e Acervo Histórico Completo do ENANCIB (1994–2026)},
   year = {2026},
   publisher = {BRAN Org},
@@ -134,11 +134,11 @@ Se você utilizar estes dados em pesquisas acadêmicas ou software, por favor ci
 | ![Classificação Verde](https://img.shields.io/badge/Classifica%C3%A7%C3%A3o-Verde-brightgreen.svg?style=for-the-badge) | **100% Fiel à Fonte Primária com Preservação Digital Histórica Completa**. Acervo histórico integral cobrindo todas as 25 edições do ENANCIB (1994–2026), unificando os dados colhidos do portal oficial OJS da ANCIB (2021–2026) e o resgate da base histórica BENANCIB / UFPB (1994–2019, indexada na BRAPCI). Todos os 6.998 trabalhos científicos foram catalogados com hash SHA-256 de proveniência preservada, 96,5% de cobertura de resumos e mapeamento canônico dos 12 Grupos de Trabalho (GT 1 ao GT 12). |
 
 > **Nota Metodológica Oficial:** 
-> *A BRAN preserva a fidelidade estrita à fonte de origem e nunca inventa dados inexistentes. Discrepâncias e lacunas identificadas nos portais oficiais são registradas nos relatórios de auditoria e tratadas via averiguação ativa e contato direto com as instituições organizadoras.*
+> *A BRAN preserva a fidelidade estrita à fonte de origem e nunca inventa dados inexistentes. Discrepâncias e lacunas identificadas nos portais de origem são registradas e tratadas tecnicamente nos relatórios de auditoria.*
 
 ---
 
 <p align="center">
- Mantido pela <strong><a href="https://github.com/BRAN-Org">BRAN Org</a></strong> e <strong>Associação Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ANCIB)</strong>
+  Mantido pela <strong><a href="https://github.com/BRAN-Org">BRAN Org</a></strong>
 </p>
 
