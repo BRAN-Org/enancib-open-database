@@ -4,7 +4,7 @@
   "scraped_at": "2026-10-20T19:24:00Z",
   "extractor_name": "enancib_benancib_unified_harvester",
   "extractor_version": "2.0.0",
-  "raw_data_sha256": "d5ccd7a1cc40b9a13b7a7904bafda1bceb0077ff7c74df2c048fe87bc96581f7",
+  "raw_data_sha256": "073205d26d458e66e3ef3e1eb9f6948a3bce5afd805dcf48d6e83f7ce479cafb",
   "health_level": "GREEN",
   "total_records": 6998,
   "missing_doi_count": 6998,

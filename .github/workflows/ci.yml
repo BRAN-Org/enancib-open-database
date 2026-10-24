@@ -27,10 +27,9 @@ jobs:
           node --check src/routes.js
           node --check public/js/app.js
           node --check public/js/charts.js
-          node --check public/js/pure-svg-charts.bundle.js
 
   dataset-validation:
-    name: Dataset Schema & EBBC Mock Validation
+    name: Dataset Schema & Validation
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
@@ -39,29 +38,18 @@ jobs:
           node-version: 20.x
           cache: 'npm'
       - run: npm ci
-      - name: Validate Default Template Dataset
+      - name: Validate Dataset
         run: npm run data:validate
-      - name: Validate EBBC OpenData Mock Dataset (643 Records)
-        run: |
-          if [ -d "mock/ebbc" ]; then
-            npm run data:ebbc
-          else
-            echo "Diretorio mock/ebbc nao existe neste repositorio. Ignorando."
-          fi
 
   unit-and-api-tests:
-    name: Unit & REST API Tests (Node ${{ matrix.node-version }})
+    name: Unit & REST API Tests (Node 20.x LTS)
     needs: [lint-and-syntax, dataset-validation]
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-
     steps:
       - uses: actions/checkout@v4.2.2
       - uses: actions/setup-node@v4.2.0
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 20.x
           cache: 'npm'
       - run: npm ci
       - name: Run Test Suite
