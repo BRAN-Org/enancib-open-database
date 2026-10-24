@@ -1,17 +1,18 @@
 {
-  "name": "enancib-open-database",
-  "version": "1.0.0",
-  "description": "Base de dados bibliométrica aberta e API REST pública dos anais do Encontro Nacional de Pesquisa e Pós-Graduação em Ciência da Informação (ENANCIB).",
+  "name": "bran-web-database-template",
+  "version": "1.5.0",
+  "description": "Template leve e reproduzível para APIs REST públicas e Dashboards de bases de dados acadêmicas da BRAN Org.",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "test": "node --test tests/unit.test.js tests/api.test.js",
-    "data:harvest": "python scripts/scrape_enancib.py",
+    "start:ebbc": "DATASET_DIR=mock/ebbc/data CONFIG_PATH=mock/ebbc/dataset.config.json node server.js",
+    "dev:ebbc": "DATASET_DIR=mock/ebbc/data CONFIG_PATH=mock/ebbc/dataset.config.json node --watch server.js",
+    "data:ebbc": "DATASET_DIR=mock/ebbc/data CONFIG_PATH=mock/ebbc/dataset.config.json node scripts/validate_dataset.js",
+    "test": "NODE_ENV=test node --test tests/unit.test.js tests/api.test.js",
     "data:convert": "node scripts/convert_csv_to_json.js",
     "data:validate": "node scripts/validate_dataset.js",
-    "data:download-pdfs": "python scripts/download_pdfs.py",
     "init:event": "node scripts/init_event.js"
   },
   "keywords": [
@@ -19,11 +20,7 @@
     "bran-org",
     "api",
     "academic-data",
-    "enancib",
-    "ancib",
-    "ciencia-da-informacao",
-    "bibliometrics",
-    "scientometrics",
+    "database-template",
     "express"
   ],
   "author": "BRAN Org",
