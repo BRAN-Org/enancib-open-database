@@ -36,8 +36,7 @@ app.use((req, res) => {
 });
 
 // Inicializar Servidor em modo local
-const isTest = process.env.NODE_ENV === 'test' || Boolean(process.env.NODE_TEST_CONTEXT) || process.execArgv.includes('--test');
-if (!isTest && !process.env.VERCEL) {
+if (process.env.NODE_ENV !== 'test' && !process.env.VERCEL) {
   app.listen(PORT, () => {
     const config = getDatasetConfig();
     console.log(`=======================================================`);
