@@ -15,7 +15,7 @@ Base de dados bibliométrica aberta e acervo histórico completo dos 6.998 traba
 
 > [!NOTE]
 > **Status de Confiabilidade:** 🟢 **Auditado e Validado**  
-> 📌 **Diagnóstico Metodológico:** Acervo exaustivo cobrindo todas as 25 edições históricas do ENANCIB (1994–2026). Todos os 6.998 artigos científicos foram catalogados com integridade criptográfica SHA-256 individual, 6.965 textos completos em PDF preservados localmente (3,49 GB) com conferência direta contra os anais originais, 96,5% de cobertura de resumos e mapeamento canônico dos 12 Grupos de Trabalho (GT 1 ao GT 12).
+> 📌 **Diagnóstico Metodológico:** Acervo exaustivo cobrindo todas as 25 edições históricas do ENANCIB (1994–2026). Todos os 6.998 artigos científicos foram catalogados com integridade criptográfica SHA-256 individual, 6.965 textos completos em PDF preservados localmente (3,49 GB) com conferência direta contra os anais originais, 96,7% de cobertura de resumos e mapeamento canônico dos 12 Grupos de Trabalho (GT 1 ao GT 12).
 
 | Métrica / Atributo | Detalhes do Acervo |
 | :--- | :--- |
