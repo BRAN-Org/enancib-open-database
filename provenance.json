@@ -9,5 +9,11 @@
   "total_records": 6998,
   "missing_doi_count": 6998,
   "missing_abstract_count": 230,
-  "notes": "Acervo histórico integral dos anais de todas as 25 edições do ENANCIB (1994-2026), unificando os dados colhidos do portal OJS oficial da ANCIB (2021-2026) e o resgate da base histórica BENANCIB / UFPB (1994-2019, indexada na BRAPCI), com enriquecimento censitário de resumos e palavras-chave cruzados com a Base ABCDM (Faculdade de Ciência da Informação - FCI/UnB). Classificação Verde (Auditado e Validado com Preservação Digital Histórica): 100% dos 6998 trabalhos catalogados, 96.7% de cobertura de resumos, padronização canônica dos 12 Grupos de Trabalho (GTs) e enriquecimento metodológico/cientométrico conforme os padrões da BRAN Org."
+  "notes": "Acervo histórico integral dos anais de todas as 25 edições do ENANCIB (1994-2026), unificando os dados colhidos do portal OJS oficial da ANCIB (2021-2026) e o resgate da base histórica BENANCIB / UFPB (1994-2019, indexada na BRAPCI), com enriquecimento censitário de resumos e palavras-chave cruzados com a Base ABCDM (Faculdade de Ciência da Informação - FCI/UnB). Classificação Verde (Auditado e Validado com Preservação Digital Histórica): 100% dos 6998 trabalhos catalogados, 96.7% de cobertura de resumos, padronização canônica dos 12 Grupos de Trabalho (GTs) e enriquecimento metodológico/cientométrico conforme os padrões da BRAN Org.",
+  "last_audited_at": "2026-11-09T13:28:13.530365+00:00",
+  "checksums": {
+    "enancib_articles.json": "005d88603d3b250238b77a4d7a4ca730b63528220c7a4c3b2f4e1faa5ce56e1c",
+    "enancib_articles.csv": "849ece597498a705d0c98300026e7ad8e248b8445485f47d07d63374f35939a9",
+    "enancib_articles.sqlite": "ac223b77a12b00ec6938a57f2d28c3e40fe7e14891725f6406971124143d50ef"
+  }
 }
